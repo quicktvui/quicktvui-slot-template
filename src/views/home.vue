@@ -1,7 +1,7 @@
 <template>
   <div class="index-root-view-css">
     <qt-image class="index-root-logo-css" :src="logo"></qt-image>
-    <qt-text class="index-root-text-view-css" gravity="center" text="Hello World!"/>
+    <qt-text class="index-root-text-view-css" gravity="center" text="Hello JsView!"/>
   </div>
 </template>
 
@@ -12,6 +12,7 @@ import {ESData, ESSlotEvent, ESSlotEventName} from "@extscreen/es3-core";
 
 export default defineComponent({
   name: 'home',
+  emits: [],
   setup() {
     function onESCreate(params) {
     }
